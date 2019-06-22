@@ -18505,7 +18505,7 @@ let BattleMovedex = {
 		priority: 0,
 		flags: {protect: 1, reflectable: 1, mirror: 1},
 		onHit(target) {
-			if (!target.hasType('Ghost')) {
+			if (target.hasType('Ghost')) {
 				// continue;
 			// } else {
 				this.cancelMove;
