@@ -30,10 +30,6 @@ let BattleTypeChart = {
 		//inherit: true,
 		damageTaken: {
 			"Bug": 0,
-		// // !
-			"Beast": 0,
-			"Bird": 0,
-		// // !
 			"Dark": 0,
 			"Dragon": 2,
 			"Electric": 0,
@@ -58,10 +54,6 @@ let BattleTypeChart = {
 		//inherit: true,
 		damageTaken: {
 			"Bug": 0,
-		// // !
-			"Beast": 0,
-			"Bird": 0,
-		// // !
 			"Dark": 1,
 			"Dragon": 1,
 			"Electric": 0,
@@ -159,7 +151,7 @@ let BattleTypeChart = {
 			"Dark": 1,
 			"Dragon": 3,
 			"Electric": 0,
-		    "Fairy": 0,
+		   	"Fairy": 0,
 			"Fighting": 0,
 			"Fire": 1,
 			"Flying": 0,
@@ -375,7 +367,7 @@ let BattleTypeChart = {
 			"Dragon": 0,
 			"Electric": 0,
 			"Fairy": 2,
-			"Fighting": 2,
+			"Fighting": 0,
 			"Fire": 0,
 			"Flying": 0,
 			"Ghost": 0,
